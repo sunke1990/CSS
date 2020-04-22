@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 66px;
+    background-color: #24292e;
+   
+}
+.header-left{
+    float: left;
+    width: 66px;
+    height: 66px;
+}
+.header-input{
+    float: left;
+    width: 300px;
+    height: 66px;
+    /* background-color: mediumorchid; */
+}
+.head-input-in{
+    margin: 20px;
+    width: 300px;
+    height: 24px;
+    border: 1px solid hsla(0,0%,100%,.125);
+    border-radius: 4%;
+    box-shadow: none;
+    background-color: hsla(0,0%,100%,.125);
+}
+.header-ul-father{
+    float: left;
+}
+.header-ul{
+    float: left;
+    margin-top: 25px;
+}
+.header-ul-li{
+    float: left;
+    margin-left: 32px;
+    list-style: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-ul a{
+    text-decoration: none;
+    color: snow;
+}
+
+.header-ul a:hover{
+    color: silver;
+}
+.header-right{
+    float: right;
+    width: 150px;
+    height: 66px;
+}
+.header-right-user{
+    float: right; 
+    /* background-color: darkgreen; */
+    height: 100%;
+    width: 50px;
+}
+.header-right-plus{
+    float: right;
+    /* background-color: darkgreen; */
+    height: 100%;
+    width: 60px;
+}
+/* .form_select {   
+    border: 0;   
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url('static/image/github2.png') 230px center no-repeat;
+    background-size: 12px;
+} */
+/* select{ 
+    border: none; 
+    width: 20px;
+    height: 20px;
+    background-color: #24292e;
+    margin-top: 17px;  
+} */
+.header-right-bell{
+    float: right;   
+    /* background-color: darkgreen; */
+    height: 100%;
+    width: 40px;
+}
+.middle-left{
+    float: left;
+    /* position: fixed; */
+    width: 350px;
+    height: 860px;
+    /* background-color: darkkhaki; */
+}
+.middle-left-one{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    width: 300px;
+    height: auto;
+    border-bottom: 1px solid lightgray;   
+}
+.middle-left-three{
+    margin-top: 15px;
+    width: 300px;
+    margin-bottom: 25px;
+    
+}
+.middle-left-two{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    width: 300px;
+    height: auto;
+   
+}
+.clear{
+    clear: both;
+}
+
+.button-left{
+    float: left;
+    width: 140px;
+    height: 28px;
+    border-radius: 4%;
+    box-shadow: none;
+    background-color: #28a745;
+    border: 0 solid #28a745;
+    background-image: linear-gradient(-180deg,#34d058,#28a745 90%);
+}
+.middle-right{
+    float: right;
+    width: 350px;
+    height: 860px;
+    /* background-color: darkkhaki; */
+}
+.middle{
+    float: left;
+    width: calc(100vw - 718px);
+    height: auto;
+    
+}
+.middle-one{
+    position: relative;
+    width: 1124px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0) 60%, #fff), linear-gradient(70deg, #dbedff 32%, #ebfff0);
+}
+.middle-one-up{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 964px;
+    height: auto;
+    text-align: center;
+    
+}
+.button-middle-left{
+    width: 216px;
+    height: 40px;
+    border-radius: 4%;
+    box-shadow: none;
+    background-color: #28a745;
+    border: 0 solid #28a745;
+    background-image: linear-gradient(-180deg,#34d058,#28a745 90%);
+}
+.button-middle-right{
+    width: 216px;
+    height: 40px;
+    border-radius: 4%;
+    box-shadow: none;
+    background-color: snow;
+}
+
+.middle-two{
+    /* position: relative; */
+    width: 1124px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid gainsboro;
+    border-top-width: 0;
+    /* border-width: 1px;
+    border-color: darkgray; */
+    /* background-color: chartreuse; */
+    
+}
+.middle-two-up{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.middle-three{
+    width: 1124px;
+    height: 135px;
+    border:1px solid gainsboro;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.middle-right-one{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 25px;
+    width: 320px;
+    height: 90px;
+    background-color: #1A1D20;
+    background-image: url(https://github.githubassets.com/images/modules/dashboard/universe-satellite.png);
+    background-size: cover;
+    border-radius: 2%;
+}
+.one{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.middle-right-two{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 25px;
+    width: 320px;
+    height: 90px;
+    background-color: #4764f1;
+    border-radius: 2%;
+}
+.two{
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 25px;
+    width: 320px;
+    height: auto;
+
+}
+.middle-right-three{
+    
+    margin-top: 25px;
+    width: 320px;
+    height: 125px;
+    border-bottom: 1px solid lightgray;
+}
+.middle-right-four{
+    
+    margin-top: 25px;
+    width: 320px;
+    height: 125px;
+    /* border-bottom: 1px solid lightgray; */
+}
+.middle-footer{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    width: 1124px;
+    height: 140px;  
+}
+.middle-footer-left{
+    float: left;
+
+}
+th{
+    font-size: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    width: 100px;
+    height: 20px;
+    text-align: left;
+    color: slategrey;
+}
